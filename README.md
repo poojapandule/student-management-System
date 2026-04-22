@@ -1,19 +1,25 @@
-Overview
-    This project implements a robust User Management System in Laravel following industry-standard design patterns and best practices. The system provides complete CRUD             functionality for user management with proper separation of concerns, caching, and validation.
+This implementation covers all the requirements:
 
-Features
-    Multi-layer Architecture:
-    Controller → Service → Business Object → Repository → Model
+Full CRUD with soft delete
+Teacher-Student relationship
+Validation
+Authentication
+Search and pagination
+DataTables integration
+Responsive Bootstrap design
+GitHub setup with README
+The application is now ready for use and further customization as needed.
 
-Complete User Management:
-    Create, Read, Update, and Delete users
+To set up the application:
 
-Validation:
-    Request-level validation with custom rules
-
-Caching:
-    Automatic caching of user data
-    Cache invalidation on data changes
-
-API Endpoints:
-    RESTful endpoints following best practices
+Download the project
+Run 'composer install'
+Run 'npm install'
+Run 'npm run dev'
+Run 'php artisan migrate'
+Run 'php artisan db:seed'
+Run 'php artisan serve'
+Go to the project running URL (http://127.0.0.1:8000)
+Login using email "test@example.com"
+Password : "password"
+The project is ready to use.
